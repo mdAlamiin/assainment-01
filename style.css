@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+}
+.btn-primary{
+    background: #ffffff;
+    color: rgb(5, 255, 13);
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 16px 20px;
+    height: 64px;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    text-align: center;
+}
+
+                            /* Header style */
+
+.banner{
+    background-image: url('images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1300px;
+    height: 700px;
+}
+.header{
+    position: absolute;
+    text-align: right;
+    /* padding: 216px 230px 166px 845px; */
+    text-decoration: none;
+    list-style-type: none;
+    
+    padding-top: 200px;
+    padding-right: 150px;
+}
+.title{
+    /* padding-left: 845px; */
+    font-weight: 700;
+    font-size: 65px;
+    color: white;
+ 
+}
+.sub-title{
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+/* My failures of previous year */
+
+.branding{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    color: #444343;
+}
+.modal{
+    width: 569px;
+    height: 723px;
+    padding: 130px 0px 130px 100px;
+}
+
+.summary{
+    width: 569px;
+    height: 723px;
+    padding: 370px 300px 214px 87px;
+}
+.summary-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.summary-title-content{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+
+        /* My Plane  */
+
+.branding-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}        
+.want{
+    display: flex;
+    padding: 50px 230px 130px 230px;
+    width: 1300;
+    height: 202px;
+    justify-content: space-around;
+
+}
+.sub-branding-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    /* text-align: center; */
+}
+.sub-content{
+    color: #444343;
+    /* text-align: center; */
+}
+.want-title{
+    text-align: center;
+    padding-left: 86px;
+    padding-right: 86px;
+    
+}
+
+
+        /* footer start */
+
+.contact{
+    
+}
+footer{
+    /* justify-content: space-between; */
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 1600px;
+    height: 577px;
+}
+.discription{
+    padding: 130px 330px 130px 100px;
+}
+.filup{
+    padding: 130px 530px 240px 0px;
+}
+.filup-title{
+    padding-bottom: 30px;
+}
+.sub-contact{
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+.sub-contact-info{
+    width: 250px;
+    height: 2px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(6, 6, 6);
+}
+.secondari-btn{
+    background: #005FAC;
+    border-radius: 8px;
+    width: 90px;
+    height: 50px;
+    padding-top: 18px;
+}
