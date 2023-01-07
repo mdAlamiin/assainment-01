@@ -17,25 +17,45 @@
 
                             /* Header style */
 
+
+
 .banner{
     background-image: url('images/banner/banner3.png');
-    background-repeat: no-repeat;
     background-size: cover;
-    width: 1300px;
-    height: 700px;
+    background-position: center;
+    height: 669px;
+    width: 1350px;
+    min-height: auto;
+    align-items: center;
+    justify-content: center;
 }
 .header{
-    position: absolute;
     text-align: right;
-    /* padding: 216px 230px 166px 845px; */
     text-decoration: none;
     list-style-type: none;
     
-    padding-top: 200px;
-    padding-right: 150px;
+    padding-top: 160px;
+    padding-right: 100px;
 }
 .title{
-    /* padding-left: 845px; */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: rgb(0, 0, 0);
+}
+.sub-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+}
+                              
+.title{
     font-weight: 700;
     font-size: 65px;
     color: white;
@@ -46,7 +66,7 @@
     padding-bottom: 32px;
 }
 
-/* My failures of previous year */
+                /* My failures of previous year */
 
 .branding{
     display: flex;
@@ -80,7 +100,38 @@
 }
 
 
-        /* My Plane  */
+
+.about{
+    text-align: center;
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 131px 156px;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .about-info{
+    font-size: 20px;
+    color: #474747;
+}
+
+                           /* My Plane  */
 
 .branding-title{
     text-align: center;
@@ -99,11 +150,9 @@
     font-weight: 700;
     font-size: 30px;
     color: #151414;
-    /* text-align: center; */
 }
 .sub-content{
     color: #444343;
-    /* text-align: center; */
 }
 .want-title{
     text-align: center;
@@ -112,14 +161,61 @@
     
 }
 
+                /* Liner Start  */
 
-        /* footer start */
-
-.contact{
-    
+.b1{
+    background-image: linear-gradient(to right, rgba(5, 40, 237, 0.52), rgba(237, 210, 210, 0.791)),url('images/watch.png') ;                
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 1140px;
+    left: 230px;
+    top: 2216px;
+    margin: 50px 250px 120px 110px;
+    min-height: auto;
+    align-items: center;
+    justify-content: center;       
+border-radius: 8px;
 }
+                  
+                  
+.b2{
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 65px;
+    margin-top: 60px;
+    padding-left: 70px;                   
+}
+.b3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 20px;
+    line-height: 60px;
+    text-align:left ;
+    color: rgb(0, 0, 0);         
+}
+.btn_poster{
+    background: #ffffff;
+    color: #F15B22;
+    font-weight: 700;
+    font-size: 16px;
+    border: 0;
+    padding: 14px 18px;
+    height: 50px;
+    border-radius: 5px;
+    width: 150px;
+    height: 60px;
+     text-align: center;
+}
+
+
+                     /* footer start */
+
+
 footer{
-    /* justify-content: space-between; */
     display: flex;
     background-color: black;
     color: white;
